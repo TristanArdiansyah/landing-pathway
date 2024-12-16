@@ -4,8 +4,8 @@ import { Section } from '@/layout/Section';
 
 const Sponsors = () => (
   <Section
-    title="Sponsors"
-    description="Our sponsors' exceptional support has made this project possible."
+    title="Meet the Founders"
+    description="The one who initiated this product."
   >
     <table className="mx-auto border-collapse">
       <tbody>
@@ -36,16 +36,6 @@ const Sponsors = () => (
               />
             </a>
           </td>
-          <td className="border-2 border-gray-300 p-3">
-            <a href="https://nextlessjs.com">
-              <Image
-                src="/assets/images/nextlessjs.png"
-                alt="React SaaS Boilerplate Next.js"
-                width={260}
-                height={224}
-              />
-            </a>
-          </td>
         </tr>
         <tr className="h-56">
           <td className="border-2 border-gray-300 p-3">
@@ -62,23 +52,10 @@ const Sponsors = () => (
             </a>
           </td>
           <td className="border-2 border-gray-300 p-3">
-            <a
-              href="https://turso.tech/?utm_source=nextjsstarterbp"
-              target="_blank"
-            >
+            <a href="https://nextlessjs.com">
               <Image
-                src="/assets/images/turso.png"
-                alt="SQLite Developer Experience"
-                width={260}
-                height={224}
-              />
-            </a>
-          </td>
-          <td className="border-2 border-gray-300 p-3">
-            <a href="https://l.crowdin.com/next-js" target="_blank">
-              <Image
-                src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg"
-                alt="Crowdin"
+                src="/assets/images/nextlessjs.png"
+                alt="React SaaS Boilerplate Next.js"
                 width={260}
                 height={224}
               />

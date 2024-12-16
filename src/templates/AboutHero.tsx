@@ -7,14 +7,12 @@ import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
-const Hero = () => (
+const AboutHero = () => (
   <Background color="bg-gray-100">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link className='hover:text-primary-900' href="https://www.figma.com/proto/TrDc7eIFm6RdAJCCIhgI5P/PPD---GROUP-8?node-id=216-3546&t=VgU1yK6wdfjJhxQz-0&scaling=scale-down&content-scaling=fixed&page-id=88%3A2&starting-point-node-id=216%3A3546">
-            Coba Aplikasinya ↗ 
-          </Link>
+          <Link href="/">App</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -23,14 +21,14 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Temukan peluang besar jadi\n'}
-            <span className="text-primary-900">remote intern dengan Pathway!</span>
+            {'Temukan peluang besar untuk menjadi\n'}
+            <span className="text-primary-500">Our vision</span>
           </>
         }
         description="Platform job seeking dengan AI CV Maker dan Easy Apply untuk memastikan pendaftaran kamu selalu On Point!"
         button={
-          <Link href="https://www.figma.com/proto/TrDc7eIFm6RdAJCCIhgI5P/PPD---GROUP-8?node-id=216-3546&t=VgU1yK6wdfjJhxQz-0&scaling=scale-down&content-scaling=fixed&page-id=88%3A2&starting-point-node-id=216%3A3546">
-            <Button xl>pathway</Button>
+          <Link href="https://creativedesignsguru.com/category/nextjs/">
+            <Button xl>Download Your Free Theme</Button>
           </Link>
         }
       />
@@ -38,4 +36,4 @@ const Hero = () => (
   </Background>
 );
 
-export { Hero };
+export { AboutHero };
