@@ -34,7 +34,7 @@ const HeroOneButton = (props: IHeroOneButtonProps) => {
       </div>
 
       <div className="w-1/3 h-1/3 p-6 sm:w-1/3">
-        <img src={`${router.basePath}${"/assets/images/hero_image.png"}`} alt={"hero image"} />
+        <img src={`${router.basePath}${"/assets/images/hero-image.png"}`} alt={"hero image"} />
       </div>
     </header>
   );

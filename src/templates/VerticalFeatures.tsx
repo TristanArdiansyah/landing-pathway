@@ -9,13 +9,20 @@ const VerticalFeatures = () => (
     <VerticalFeatureRow
       title="AI CV Maker"
       description="Dengan AI CV Maker, kamu akan dibantu untuk membuat CV yang menarik dan sesuai dengan kebutuhan perusahan. "
-      image="/assets/images/feature.svg"
+      images={["/assets/images/cv-maker.png","/assets/images/cv-maker-1.png"]}
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
       title="Easy Apply"
       description="Dengan satu klik easy apply, kamu dapat mendaftarkan diri dengan mudah. Semua informasi pribadi kamu sudah kami urus dan kamu bisa mendaftar ke banyak posisi dengan mudah"
-      image="/assets/images/feature2.svg"
+      images={
+        [
+          "/assets/images/easy-apply.png",
+          "/assets/images/easy-apply-1.png",
+          "/assets/images/easy-apply-3.png",
+          "/assets/images/easy-apply-4.png",
+          "/assets/images/easy-apply-2.png",
+        ]}
       imageAlt="Second feature alt text"
       reverse
     />
